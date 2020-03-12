@@ -24,6 +24,7 @@
 
     .enlace1{
       color: #FFF;
+      font-family: soberana !important; 
       
     }
 
@@ -39,6 +40,7 @@
       opacity: 0.70;
       filter: alpha(opacity=70);
       cursor: pointer;
+      font-family: soberana !important; 
     }
 
     .enlace2:hover{
@@ -51,16 +53,19 @@
     .tooltip-inner {
       background-color: #52545c;
       text-align: justify;
+      font-family: soberana !important; 
     }
 
     .guiaf1{
     	background-color: #03193f; 
     	color: #FFF;
+      font-family: soberana !important; 
     }
 
     .guiaf2{
     	background-color: #062666;
     	color: #FFF;
+      font-family: soberana !important; 
     }
 
     .wrapper {
@@ -68,6 +73,7 @@
         overflow: hidden; 
         width: 155px;
         height: 139px;
+        font-family: soberana !important; 
     }
 
     #slide {
