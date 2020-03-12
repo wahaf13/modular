@@ -1,6 +1,9 @@
 
 
-  body{ font-family: soberana; }
+  body{ 
+    font-family: soberana !important; 
+  }
+
 	.separador{ 
       border-style: solid; !important;
       border-color: #FFF !important;
