@@ -25,9 +25,3 @@
 	src: url(fonts/soberana/SoberanaSans-Bold.otf);
 	font-weight:500;
 }
-
-@font-face {
-    font-family: HelveticaNeue;
-	src: url(fonts/helvetica/HelveticaNeue.otf);
-	font-weight:normal;
-}
