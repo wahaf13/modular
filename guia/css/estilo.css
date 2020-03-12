@@ -24,7 +24,7 @@
 
     .enlace1{
       color: #FFF;
-      font-family: soberana !important; 
+     /* font-family: soberana !important; */
       
     }
 
@@ -40,7 +40,7 @@
       opacity: 0.70;
       filter: alpha(opacity=70);
       cursor: pointer;
-      font-family: soberana !important; 
+     /* font-family: soberana !important; */
     }
 
     .enlace2:hover{
