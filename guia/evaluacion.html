@@ -17,8 +17,8 @@
 
 <body id="page-top" class="fondo1">
   <div class="container" > <!-- container -->
-    <div class="row  mt-3"> <!-- row 1 -->
-      <div class="col-md-10">
+<div class="row  mt-3"> <!-- row 1 -->
+       <div class="col-md-10">
         <div class="row grid-divider">
           <div class="col-sm pt-2  pb-3 border-bottom text-center guiaf1 enlace" onclick="window.location.href='que.html'" >
             <b>¿QUÉ VOY </b><br>A APRENDER?          
@@ -41,33 +41,41 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2 pt-2 text-center" >
-        <img src="img/logo.png" class="mx-auto"  alt="">
+      <div class="col-md-2 pt-2 d-flex justify-content-center" >
+        <img src="img/logo.png" class="img-fluid"  alt="">
       </div>
     </div><!-- row -->
+      
+    <div class="row justify-content-center">
+      <div class="col-md-12 text-center" style="  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19); background-color: #e5e5e4; min-height: 600px;" >
 
-
-    <div class="row justify-content-center" style="  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19); background-color: #e5e5e4;" >
-
-      <div class="col-md-1" style=" margin-top: 15%;">
-       <!--  <div class="wrapper" >
-          <img id="slide" src="img/menu.png" />
-          <a href="index.html" style=""><div id="slide"  class="enlace" style="position: absolute; width: 155px; height: 44px; left: 0px; top: 0px; " data-toggle="tooltip" data-placement="right" title="En esta sección, revisarás información acerca de los temas propuestos en el curso."></div></a>
-          <a href="que.html" style=""><div  id="slide" class="enlace" style="position: absolute; width: 155px; height: 44px; left: 0px; top: 50px;" data-toggle="tooltip" data-placement="right" title="Son ejercicios para la verificación del aprendizaje con intentos ilimitados y sin valor de acreditación."></div></a>
-          <a href="como.html"><div  id="slide"  class="enlace" style="position: absolute; width: 155px; height: 44px; left: 0px; top: 100px;" data-toggle="tooltip" data-placement="right" title="Consiste en realizar la evaluación final del bloque. Tiene valor para la acreditación del curso."></div></a>
-        </div>   -->
+         <div class="row">
+        <div class="col-md-12  ml-5  text-left pb-4 pt-4 "  >
+          <img src="img/evaluacion1.png" class="img-fluid"  alt="evaluación">
+        </div>
       </div>
-     
-      <div class="col-md-11">
-        <br><br>
-        <img src="img/evaluacion1.png" class="img-fluid"  alt="evaluación">
-        <br><br>
-        <img src="img/evaluacion2.png" class="img-fluid enlace"  alt="Ir a cuestionario" style="margin-top: -15%; margin-left: 35%; margin-bottom: 10%;">
+
+      <div class="row">
+          <div class="col-md-5  ml-5 text-justify"  >
+            Antes de empezar, es importante que consideres lo siguiente:<br><br>
+
+            Dado que la naturaleza de este cuestionario es sólo saber tus conocimientos básicos sobre este tema, por lo que no tiene ningún valor de acreditación.<br><br>
+
+            Podrás acceder al curso una vez que hayas realizado tu cuestionario diagnóstico. Al finalizar el cuestionario, de manera automática ingresarás al primer módulo del curso.          
+          </div>
+          <div class="col-md-5  ml-5 text-justify"  >
+            Tienes 1 hora para responder este cuestionario por lo que se te sugiere que una vez iniciado, evites distracciones que puedan restar tiempo para responderlo.<br><br>
+            <h4> ¡Esperamos que sea una gran experiencia de aprendizaje!</h4>
+            <img src="img/evaluacion2.png" class="img-fluid enlace"  alt="Ir a cuestionario" style="margin-top: -5%; margin-left: 15%; margin-bottom: 10%;">
+          </div>
+        </div>
+
       </div>
+
+
     </div>
 
 
-    
     <div class="row justify-content-center">
       <div class="clearfix" style="margin-top: 2%;">
         <div class="float-left"><a href="navegacion.html"><img src="img/atras.png" class="img-fluid  enlace"  alt="Atrás"></a></div>
@@ -98,24 +106,13 @@
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
 
-
-
-
   <script>
-   /* $(document).ready(function(){
-        $('#msj1').tooltip({title: "<h5>Bloque 1</h5><p>Antecedentes:<br> Compromiso social y ético.</p>", html: true, placement: "right"}); 
-        $('#msj2').tooltip({title: "<h5>Bloque 2</h5><p>Sistema modular y diseño curricular integral.</p>", html: true, placement: "right"});
-        $('#msj3').tooltip({title: "<p style='text-align: justify;'>Consiste en realizar la evaluación final del bloque. Tiene valor para la acreditación del curso.</p>", html: true, placement: "right"});  
-        //$('#msj4').tooltip({title: "<h5>Bloque 4</h5><p style='text-align: justify;'>Los Conceptos nodales del Sistema Modular.</p>", html: true, placement: "right"});  
-    });  */
-
-    $(document).ready(function() {
-
-      $('[data-toggle="tooltip"]').tooltip();   
-
-    });
-
-  </script>
+$(document).ready(function(){
+    $('#msj1').tooltip({title: "<h5>Bloque 1</h5><p>Antecedentes:<br> Compromiso social y ético.</p>", html: true, placement: "bottom"}); 
+    $('#msj2').tooltip({title: "<h5>Bloque 2</h5><p>Sistema modular y diseño curricular integral.</p>", html: true, placement: "bottom"});
+    $('#msj3').tooltip({title: "<h5>Bloque 3</h5><p style='text-align: justify;'>Los Conceptos nodales del Sistema Modular.</p>", html: true, placement: "bottom"});  
+});
+</script>
 
 </body>
 
