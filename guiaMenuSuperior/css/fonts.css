@@ -1,0 +1,33 @@
+/* CSS Document */
+
+@font-face {
+    font-family: soberana;
+	src: url(fonts/soberana/SoberanaSans-Black.otf);
+	font-weight:900;
+}
+@font-face {
+    font-family: soberana;
+	src: url(fonts/soberana/SoberanaSans-Bold.otf);
+	font-weight:bold;
+}
+@font-face {
+    font-family: soberana;
+	src: url(fonts/soberana/SoberanaSans-Light.otf);
+	font-weight:100;
+}
+@font-face {
+    font-family: soberana;
+	src: url(fonts/soberana/SoberanaSans-Light.otf);
+	font-weight:normal;
+}
+@font-face {
+    font-family: soberana;
+	src: url(fonts/soberana/SoberanaSans-Bold.otf);
+	font-weight:500;
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+	src: url(fonts/helvetica/HelveticaNeue.otf);
+	font-weight:normal;
+}
