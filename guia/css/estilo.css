@@ -15,6 +15,7 @@
     .fondo1 {
     /* background: url('../img/fondo.png') no-repeat center center fixed; */
     background-image: linear-gradient(to bottom, rgba(8,37,115,1.0), white);
+    background-repeat: no-repeat;
   
       -webkit-background-size: cover;
       -moz-background-size: cover;
